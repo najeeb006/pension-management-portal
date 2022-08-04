@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:555918697305:task-definition/microservices:1"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/pension-management-portal:5"
         LoadBalancerInfo:
           ContainerName: "pension-management-portal"
           ContainerPort: "80"
